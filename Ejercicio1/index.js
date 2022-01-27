@@ -1,4 +1,5 @@
-console.log('Hola');
+
+
 //base = 16 cm * 23 cm
 //altura = 13 cm
 
