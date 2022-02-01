@@ -1,12 +1,21 @@
 
-const meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+const times = [60, 75, 79, 80, 55, 59];
 
-const sieteletras = meses
-.filter (mes => mes.length>7)
-.map (mes => mes.toUpperCase());
+function calcmedia (times){
+    var suma = 0;
+    var media;
+    for (let i=0; i<times.length; i++){
+        suma += times[i];
+    }
+    media = suma/times.length;
+    return (media);
+}
+    
 
 
-console.log ("meses: " + meses);
-console.log ("más de 7 letras: " + sieteletras);
-console.log ("número: " + sieteletras.length);
+
+
+console.log ("times: " + times);
+
+console.log ("media: " + calcmedia(times));
 
