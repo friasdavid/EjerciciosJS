@@ -11,10 +11,6 @@ function calcmedia (times){
     return (media);
 }
     
-
-
-
-
 console.log ("times: " + times);
 
 console.log ("media: " + calcmedia(times));
