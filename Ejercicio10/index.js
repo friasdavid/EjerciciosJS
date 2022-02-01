@@ -17,7 +17,6 @@ for (let i=0; i<number.length; i++){
 var pares = number.filter ((numero)  => numero % 2 == 0);
 var impares = number.filter ((numero)  => numero % 2 == 1);
 
-
 console.log ("array: " + number);
 console.log ("pares: " + pares);
 console.log ("impares: " + impares);
