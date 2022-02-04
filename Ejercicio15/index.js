@@ -24,7 +24,6 @@ class factura {
     }
 }
 
-
 class cliente {
     constructor (nombre, direccion, telefono, nif) {
         this.nombre = nombre;
